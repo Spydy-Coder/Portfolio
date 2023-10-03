@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1QPUJPKAXNIwCg4ZF6KcOwm9JIg7w3q-B/view?pli=1", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hJAvwTZl9x7SVTduqBadaeEk0tehNKXi/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Spydy-Coder/",
   linkedin: "https://www.linkedin.com/in/bikash-chandra-dalai-572560203/",
-  gmail: "bikashempire321@gmail.com",
+  gmail: "bikashchandradalai1002@gmail.com",
 leetcode: "https://leetcode.com/spydy_coder/",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
@@ -379,7 +379,7 @@ const contactInfo = {
   subtitle:
     "Ready to bring your digital vision to life? Let's connect and discuss how I can help you create stunning web experiences.",
   number: "+91-7007695278",
-  email_address: "bikashempire321@gmail.com"
+  email_address: "bikashchandradalai1002@gmail.com"
 };
 
 // Twitter Section
