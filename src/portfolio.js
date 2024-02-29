@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hJAvwTZl9x7SVTduqBadaeEk0tehNKXi/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kJglAMAF9YPSVyS3MU-v72kwPZI2ub_T/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -119,7 +119,7 @@ const educationInfo = {
       logo: require("./assets/images/college.png"),
       subHeader: "Bachelor of Technology in Information Technology",
       duration: "2020-2024",
-      desc: "CGPA: 9.71/10.0",
+      desc: "CGPA: 9.66/10.0",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -203,9 +203,9 @@ const codingProfiles = {
 
   projects: [
     {
-      image: require("./assets/images/ratingleetcode.png"),
-      projectName: "Solved 420+ Questions on LeetCode",
-      projectDesc: "Contest Rating- 1628",
+      image: require("./assets/images/leetcodeprofile.png"),
+      projectName: "Solved 532+ Questions on LeetCode",
+      projectDesc: "Contest Rating- 1650",
       footerLink: [
         {
           name: "View Profile",
@@ -252,15 +252,15 @@ const bigProjects = {
     {
       image: require("./assets/images/chatify.png"),
       projectName: "Chatify",
-      projectDesc: "It's a real-time chat application that promotes seamless communication and collaboration through messaging and emoji sharing.",
+      projectDesc: "It delivers an unparalleled, dynamic chat experience by introducing a revolutionary Audio-to-Text feature, an AI companion for intelligent interactions, real-time presence tracking, and the ability to pin favorite contacts. This real-time chat application promotes seamless communication and collaboration through messaging and emoji sharing.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://chatify-vercel.vercel.app/"
+          url: "https://chatifymessengerapp.netlify.app/"
         },
         {
           name:"View Code",
-          url: "https://github.com/Spydy-Coder/Chatify-Messenger"
+          url: "https://github.com/Spydy-Coder/Chatify"
         }
       ]
     }
