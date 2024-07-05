@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1b8Nh3wLlcwvrg7n8UjaFcvZyBHME5EDb/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1YYLJFE9arcEP5ZhQ2bpjIk_cd4-MYru4/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -104,6 +104,26 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "springboot",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fas fa-cloud"
+    }
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -119,7 +139,7 @@ const educationInfo = {
       logo: require("./assets/images/college.png"),
       subHeader: "Bachelor of Technology in Information Technology",
       duration: "2020-2024",
-      desc: "CGPA: 9.66/10.0",
+      desc: "CGPA: 9.69/10.0",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -204,8 +224,8 @@ const codingProfiles = {
   projects: [
     {
       image: require("./assets/images/leetcodeprofile.png"),
-      projectName: "Solved 532+ Questions on LeetCode",
-      projectDesc: "Contest Rating- 1650",
+      projectName: "Solved 660+ Questions on LeetCode",
+      projectDesc: "Contest Rating- 1727",
       footerLink: [
         {
           name: "View Profile",
@@ -263,6 +283,24 @@ const bigProjects = {
           url: "https://github.com/Spydy-Coder/Chatify"
         }
       ]
+    },
+    {
+      image: require("./assets/images/safar-logo.png"),
+      projectName: "Safar",
+      projectDesc: `Safar is an innovative tour management system designed to simplify travel planning for both users and administrators. It
+features a range of functionalities aimed at enhancing the efficiency of tour booking and management.
+`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://safar-seven.vercel.app/"
+        },
+        {
+          name:"View Code",
+          url: "https://github.com/Spydy-Coder/Safar"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -277,6 +315,19 @@ const achievementSection = {
     "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "Google Cloud Digital Leader",
+      subtitle:
+        "This certification underscores my proficiency in cloud computing basics and my ability to leverage Google Cloud products to drive organizational success.",
+      image: require("./assets/images/cloud-digital-leader-certification.png"),
+      imageAlt: "Google Cloud",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/c6cfc976-b2fa-4505-86aa-ecb6444b9a5f/public_url"
+        }
+      ]
+    },
     {
       title: "Introduction to Machine Learning",
       subtitle:
